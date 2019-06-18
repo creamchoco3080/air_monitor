@@ -48,4 +48,5 @@ def vector_generator(fname):
     high_mean = cv.mean(high)[0]
     high_var = np.var(high)
 
+    # return [fname, l, v, m[0], m[1], m[2], low_mean, high_mean, low_var, high_var]
     return [l, v, m[0], m[1], m[2], low_mean, high_mean, low_var, high_var, dc_mean[0], dc_var]
